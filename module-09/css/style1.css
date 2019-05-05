@@ -1,0 +1,178 @@
+.container_fluid--header {
+height: 540px;
+background-image: url(../img/header-bg.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align: center;
+}
+
+
+
+
+
+.log_in, .sign_in {
+border-radius: 30px;
+font-size: 14px;
+font-family: "Montserrat";
+color: rgb(255, 255, 255);
+font-weight: bold;
+line-height: 1.2;
+text-align: center;
+border:2px solid transparent;
+}
+
+.urla {
+font-size: 20px;
+font-family: "Montserrat";
+color: rgb(255, 255, 255);
+font-weight: bold;
+text-transform: uppercase;
+line-height: 1.2;
+text-align: center;
+}
+
+.dream {
+font-size: 30px;
+font-family: "Montserrat";
+color: rgb(255, 255, 255);
+font-weight: bold;
+text-transform: uppercase;
+line-height: 1.2;
+}
+
+.partner {
+font-size: 18px;
+font-family: "Roboto";
+color: rgb(255, 255, 255);
+line-height: 1.2;
+}
+
+.find_partner {
+background-color: #ff4e50;
+border: none;
+border-radius: 30px;
+font-size: 14px;
+font-family: "Montserrat";
+font-weight: bold;
+line-height: 1.2;
+padding: 15px 35px 15px 35px;
+color: #fff;
+cursor: pointer;
+}
+
+.meet_partner {
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+font-family: "Montserrat";
+}
+
+.member_container {
+align-items: center;
+text-align: center;
+border-radius: 60px;
+
+
+}
+
+.image_wrp {
+position: relative;
+font-size: 0px;
+}
+
+
+
+.round {
+border-radius: 60px;
+}
+
+.icon {
+position: absolute;
+bottom: 0%;
+left: 58%;
+}
+
+.member_name {
+color: #333333;
+}
+
+.member_info {
+
+font-size: 14px;
+font-family: "Roboto";
+color: rgb(102, 102, 102);
+line-height: 1.2;
+}
+
+.see_other {
+
+width: 87%;
+border: 2px solid #ff4e50;
+background-color: #fff;
+border-radius: 30px;
+font-size: 14px;
+font-family: "Montserrat";
+font-weight: bold;
+line-height: 1.2;
+color: #ff4e50;
+cursor: pointer;
+}
+
+
+/* hover affects */
+.sign_in:hover {
+border:2px solid #fff;
+}
+.log_in:hover {
+border:2px solid #fff;
+}
+
+@media (min-width: 768px)  {
+.container_fluid--header {
+height: 700px;
+width: 100%;
+background-image: url(../img/header-bg@tablet.jpg);
+}
+
+.dream {
+font-size: 40px;
+}
+
+.partner {
+font-size: 20px;
+width: ;
+}
+
+.meet_partner {
+font-size: 20px;
+letter-spacing: 1px;
+}
+
+
+
+
+.member_info{
+width: 80%;
+}
+
+
+.see_other {
+width: 30%;
+
+}
+
+}
+
+
+@media (min-width: 960px) {
+
+.container_fluid--header {
+height: 700px;
+background-image: url(../img/header-bg@desktop.jpg);
+}
+.cont {
+max-width: 960px;
+}
+
+

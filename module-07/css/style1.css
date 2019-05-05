@@ -1,0 +1,204 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.page_wrapper1 {
+width: 940px;
+margin: 0 auto;
+}
+header {
+padding-top: 50px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 125px;
+}
+
+.list {
+width: 495px;
+display: flex;
+justify-content: space-between;
+list-style: none;
+}
+
+.link {
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+cursor: pointer;
+font-family: "Montserrat", sans-serif;
+}
+
+.link:hover {
+color: #fed136;
+}
+
+h1 {
+text-transform: uppercase;
+text-align: center;
+font-size: 30px;
+font-weight: bold ;
+margin-bottom: 25px;
+font-family: "Montserrat",sans-serif;
+}
+
+.title_text {
+text-align: center;
+color: #9b9b9b;
+font-family: "Droid-serif",sans-serif;
+font-style: italic;
+font-size: 14px;
+margin-bottom: 55px;
+}
+.content_wrapper {
+display: flex;
+justify-content: space-between;
+margin-bottom: 100px;
+}
+
+.container {
+width: 230px;
+height: 280px;
+text-align: center;
+}
+
+.img_wrp {
+height: 107px;
+padding-bottom: 17px;
+}
+
+h2 {
+font-size: 18px;
+font-weight: bold;
+font-family: "Montserrat",sans-serif;
+margin-bottom: 23px;   
+}
+
+.service_text {
+text-align: center;
+text-indent: 16px;
+color: #9b9b9b;
+font-family: "Roboto Slab",sans-serif;
+font-size: 14px;
+}
+
+.bottom_section {
+margin: auto;
+background-color: #222222;
+height: 610px;
+background-image:url(../images/map-Image.png);
+}
+form  {
+width: 940px;
+margin: 0 auto;
+}
+.btm_text {
+margin: 0 auto;
+width: 940px;
+}
+h3 {
+font-family: "Montserrat",sans-serif;
+font-weight: bold;
+color: #fff;
+text-align: center;
+padding-top: 100px;
+font-size: 30px;
+text-transform: uppercase;
+margin-bottom: 25px;
+}
+
+.upinput_text {
+color: #505050;
+text-align: center;
+margin-bottom: 65px;
+font-style: italic;
+font-family: "Droid-serif",sans-serif;
+}
+
+.contact-form-wrp {
+display: flex;
+justify-content: space-between;
+}
+.contact-inputs {
+width: 455px;
+height: 210px;
+}
+
+.contact-textarea-wrp {
+width: 455px;
+}
+
+
+
+.contact-input  {
+outline-offset: -2px;
+padding-left: 20px;
+margin-left: 1px;
+width: 455px;
+height: 50px;
+margin-bottom: 30px;
+font-family: "Montserrat",sans-serif;
+font-weight: bold;
+color: #9b9b9b;
+font-size: 10px;
+border-radius: 3px;
+outline: 4px solid transparent;
+border: none;
+box-sizing: border-box;
+transition: outline-color 0.1s;
+}
+
+textarea {
+outline-offset: -2px;
+padding-left: 20px;
+padding-top: 18px;
+width: 454px;
+height: 210px;
+color: #9b9b9b;
+font-family: "Montserrat",sans-serif;
+font-weight: bold;
+border-radius: 3px;
+outline: 4px solid transparent;
+box-sizing: border-box;
+transition: outline-color 0.1s;
+}
+
+.contact-submit
+{
+border: none;
+border-radius: 6px;
+color: #fff;
+display: block;
+height: 65px;
+width: 245px;
+margin: 30px auto;
+background-color: #fed136;
+font-size: 18px;
+text-transform: uppercase;
+font-family: "Montserrat",sans-serif;
+font-weight: bold;
+cursor: pointer;
+}
+
+input[type="email"]:focus:invalid,
+textarea[name="body"]:focus:invalid,
+input[name="name"]:focus:invalid {
+outline-color: red;
+transition: outline-color 5s;
+}
+
+input[type="email"]:focus:valid,
+textarea[name="body"]:focus:valid,
+input[name="name"]:focus:valid {
+outline-color: green;
+transition: outline-color .4s;
+}
+
+.contact-input,
+.contact-textarea {
+  box-sizing: border-box;
+  width: 455px;
+  outline: 4px solid transparent;
+  outline-offset: -2px;
+  transition: outline-color 0.1s;
+} 

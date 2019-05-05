@@ -1,0 +1,172 @@
+* {margin: 0;
+padding: 0;
+}
+header {
+width: 1110px;
+margin-left: 30px;
+margin-right: 30px;
+}
+.wrapper {
+margin: auto;
+width: 1170px;
+} 
+
+.card-wrapper {
+width: 1170px;
+margin: auto;
+}
+main {
+font-size: 0;
+margin-bottom: 75px;
+}
+.logo {
+font-size: 22px;
+padding-top: 36px;
+float: left;
+}
+h1 a:hover {
+color: rgb(26,188,156); 
+}
+nav {
+float: right;
+}
+.maintitle::after{
+content: '';
+background-color: rgb(26,188,156);
+width: 164px;
+height: 7px;
+display: block;
+margin: 20px auto;
+ }
+.list {
+font-size: 10px;
+list-style: none;
+width: 463px;
+padding-top: 36px;
+text-transform: uppercase;
+text-align: center;
+}
+nav {
+
+}
+.list-item  { 
+width: 77px;
+float: left;}
+li a:hover {
+color: rgb(26,188,156);  
+}
+.list-link {
+text-decoration: none;
+color: #444;
+}
+header {
+margin-bottom: 80px;
+}
+.maintitle {
+display: inline-block;
+text-align: center;
+justify-content: center;
+width: 1170px;
+height: 36px;
+text-transform: uppercase;
+color: #444;
+margin-bottom: 130px;
+text-decoration: none;
+}
+.clearfix {
+content: "";
+display: table;
+clear: both;
+}
+a {
+display: inline-block;
+}
+.card {
+height: 322px;
+width: 255px;
+margin-right: 15px;
+margin-left: 15px;
+margin-bottom: 30px;
+float: left;
+}
+.card-image-wrp {
+width: 255px;
+height: 282px;
+background-color: #e9f0fd;
+display: inline-block;
+text-align: center;
+margin: auto;
+}
+
+.card-image {
+display: inline-block;
+width: 255px;
+height: 282px;
+}
+.container {
+margin: 0 auto;
+width: 255px;
+}
+.container:hover .goodsname {
+background-color: rgb(26,188,156); 
+}
+.container:hover .price {
+background-color: #7fd9c7; 
+}
+
+.goodsname {
+display: inline-block;
+width: 185px;
+height: 28px;    
+background-color: #323232;
+color: white;   
+font-size: 15px;
+text-transform: uppercase;
+padding-left: 15px;
+padding-top: 12px;
+}
+.price {
+display: inline-block;
+width: 55px;
+height: 28px;
+background-color: #8c8c8c;
+color: white;
+font-size: 15px;
+text-align: center;
+text-transform: uppercase;
+padding-top: 12px;
+}  
+.news-card {
+float: left;
+width: 350px;
+height: 26px;
+margin-left: 30px;
+}
+.news-card-image-wrp {
+margin-bottom: 15px;
+}
+.title {
+font-size: 14px;
+margin-bottom: 47px;
+}
+.title::after{
+content: '';
+background-color: rgb(26,188,156);
+width: 136px;
+height: 4px;
+display: block;
+margin-top: 15px;
+}
+p {
+font-size: 12px;
+margin-bottom: 20px;
+}
+.load-btn {
+width: 150px;
+height: 60px;
+background-color: rgb(26,188,156);
+color: aliceblue;
+margin-bottom: 45px;
+border: none;
+text-decoration: none;
+}

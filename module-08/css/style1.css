@@ -1,0 +1,321 @@
+.container_fluid--header {
+height: 540px;
+background-image: url(../img/header-bg.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align: center;
+}
+body {
+margin: 0;
+}
+.log {
+display: inline-block;
+height: 10.2%;
+width: 50%;
+text-align: center;
+}
+
+a {
+display: inline-block;
+text-decoration: none;
+text-align: center;
+align-items: center;
+}
+
+.log_in, .sign_in {
+padding: 13px;
+border-radius: 30px;
+font-size: 14px;
+font-family: "Montserrat";
+color: rgb(255, 255, 255);
+font-weight: bold;
+line-height: 1.2;
+text-align: center;
+border:2px solid transparent;
+}
+
+.urla {
+padding-top: 100px;
+font-size: 20px;
+font-family: "Montserrat";
+color: rgb(255, 255, 255);
+font-weight: bold;
+text-transform: uppercase;
+line-height: 1.2;
+text-align: center;
+margin-bottom: 25px;
+}
+
+.dream {
+  margin: 0;
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.partner {
+margin: 0;
+font-size: 18px;
+font-family: "Roboto";
+color: rgb(255, 255, 255);
+line-height: 1.2;
+text-align: center;
+padding-left: 9.26%;
+padding-right: 9.26%;
+padding-bottom: 10px;
+}
+
+.find_partner {
+width: 87%;
+background-color: #ff4e50;
+border: none;
+border-radius: 30px;
+font-size: 14px;
+font-family: "Montserrat";
+font-weight: bold;
+line-height: 1.2;
+text-align: center;
+padding: 15px 35px 15px 35px;
+color: #fff;
+cursor: pointer;
+}
+.members_wrp {
+text-align: center;
+}
+.meet_partner {
+text-align: center;
+padding: 50px 25px 0px 25px;
+font-size: 18px;
+font-weight: bold;
+font-family: "Montserrat";
+margin: 0;
+}
+
+.member_container {
+align-items: center;
+padding-top: 20px;
+text-align: center;
+border-radius: 60px;
+padding-bottom: 30px;
+height: 257px;
+}
+
+.image_wrp {
+position: relative;
+margin-bottom: 20px;
+font-size: 0px;
+margin: 0;
+}
+
+
+
+.round {
+border-radius: 60px;
+}
+
+.icon {
+position: absolute;
+bottom: 0%;
+left: 58%;
+}
+
+.member_name {
+color: #333333;
+}
+
+.member_info {
+margin: 0;
+padding: 0px 60px 0px 60px;
+font-size: 14px;
+font-family: "Roboto";
+color: rgb(102, 102, 102);
+line-height: 1.2;
+text-align: center;
+}
+
+.see_other {
+
+width: 87%;
+border: 2px solid #ff4e50;
+background-color: #fff;
+border-radius: 30px;
+font-size: 14px;
+font-family: "Montserrat";
+font-weight: bold;
+line-height: 1.2;
+text-align: center;
+padding: 15px 35px 15px 35px;
+color: #ff4e50;
+cursor: pointer;
+margin-bottom: 50px;
+}
+
+
+/* hover affects */
+.sign_in:hover {
+border:2px solid #fff;
+}
+.log_in:hover {
+border:2px solid #fff;
+}
+
+@media (min-width: 768px)  {
+.container_fluid--header {
+height: 700px;
+width: 100%;
+background-image: url(../img/header-bg@tablet.jpg);
+text-align: left;
+}
+
+.log {
+padding-top: 40px;
+float: right;
+margin: 0;
+text-align: right;
+padding-right: 50px;
+}
+.urla {
+display: inline-block;
+padding-top: 50px;
+padding-left: 50px;
+margin-top: 0;
+margin-bottom: 160px;
+text-align: left;
+}
+
+.log_in {
+margin: 0;
+}
+.sign_in {
+margin: 0;
+}
+
+.dream {
+width: 63%;
+font-size: 40px;
+margin-bottom: 40px;
+margin: 0 auto;
+}
+
+.partner {
+font-size: 20px;
+margin-bottom: 35px;
+padding-bottom: 0;
+}
+
+.find_partner {
+width: 38%;
+height: 5.2%;
+margin: 0 auto;
+margin-left: 31%;
+margin-right: 31%;
+}
+
+.members_wrp {
+max-width: 940px;
+width: 64%;
+display: flex;
+margin: auto;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.member_cont_wrp {
+display: flex;
+width: 50%;
+margin: auto;
+}
+
+.meet_partner {
+width: 82.1%;
+margin: auto;
+padding: 50px 0px 0px 0px;
+font-size: 20px;
+letter-spacing: 1px;
+}
+
+
+
+
+
+.member_info {
+margin: 0 auto;
+width: 80%;
+padding: 0px 0px 0px 0px;
+}
+
+.see_other {
+width: 45%;
+padding: 15px 30px 15px 30px;
+margin-bottom: 60px;
+margin-right: auto;
+margin-left: auto;
+}
+
+}
+
+
+@media (min-width: 960px) {
+
+.container_fluid--header {
+height: 700px;
+background-image: url(../img/header-bg@desktop.jpg);
+/* margin: 0 auto; */
+}
+
+.cont {
+margin: 0 auto;
+max-width: 960px;
+}
+
+.log {
+padding-right: 0;
+}
+
+
+
+.urla {
+text-align: left;
+text-align-last: left;
+padding-left: 0;
+}
+
+.dream {
+width: 46%;
+text-align: center;
+padding-bottom: 45px;
+}
+
+.find_partner {
+width: 28%;
+text-align: center;
+margin-left: 36%;
+margin-right: 36%;
+}
+
+.members_wrp {
+width: 100%;
+}
+
+.member_cont_wrp {
+width: 23%;
+}
+
+.member_container {
+width: 100%;
+}
+.member_info {
+padding: 0px 10px 0 10px;
+}
+
+.see_other {
+width: 25%;
+margin-bottom: 75px;
+}
+  }

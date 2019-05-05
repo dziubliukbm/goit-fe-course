@@ -1,0 +1,299 @@
+* {margin:  auto;
+padding: auto;
+}
+.wrapper {
+margin: 0 auto;
+width: 1600px;
+font-size: 0 px;
+}
+.nav {
+margin: auto;
+height: 90px;
+display: inline-block;
+}
+.logo {
+display: inline-block;
+width: 80px;
+height: 22px;
+margin-left: 245px;
+padding-top: 38px;
+}
+.list {
+margin-left: 480px;
+width: 540px;
+list-style: none;
+display: inline-block;
+}
+.list-item {
+display: inline-block;
+width: 80px;
+height: 12px;
+}
+.list-link {
+display: inline-block;
+text-transform: uppercase;
+font-family: sans-serif;
+text-align: center;
+font-size: 12px;
+color: black;
+text-decoration: none;
+}
+
+.slider-wrp {
+height: 600px;
+width: 1600px;
+position: relative;
+}
+.slider-img {
+width: 100%;
+height: 600px;
+z-index: 1;
+}
+img {
+border-style: none;
+}
+div {
+display: block;
+}
+.container {
+max-width: 1170px;
+margin: auto;
+padding: 0 15px;
+}
+.slider {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 1;
+}
+.slider-content {
+position: absolute;
+min-width: 750px;
+top:220px;
+left:50%;
+transform: translateX(-50%); 
+}
+.slider-title {
+font-weight: 800;
+font-size: 46px;
+margin-top: 0;
+margin-bottom: 0;
+}
+.slider-title, .slider-subtitle {
+text-transform: uppercase;
+color: #fff;
+font-family: "Open Sans", sans-serif;
+}
+.control-btn:hover {
+background-color: rgb(78,198,171);
+}
+a:hover {
+color: rgb(78,198,171);
+}
+.control-btn {
+background-color: rgba(78,198,171, 0.65);
+width: 104px;
+height: 104px;
+position: absolute;
+top:226px;
+z-index: 15;
+border: none;
+cursor: pointer;
+}
+button {
+font-family: inherit;
+font-size: 100%;
+line-height: 1,15;
+margin: 0;
+}
+.control-btn-nex {
+margin-right: 15px;
+right: 15px;
+}
+.control-btn-prev {
+margin-left: 15px;
+left: 15px;
+}
+.arrow {
+display: inline-block;
+width: 23px;
+height: 23px;
+border-right: 4px solid #fff;
+border-bottom: 4px solid #fff; 
+background: transparent;
+}
+.arrow-right {
+transform: rotate(-45deg);
+margin-right: 15px;
+}
+.arrow-left {
+transform: rotate(135deg);
+margin-left: 15px;
+}
+.maintitle-wrp {
+height: 255px;
+width: 1600px;
+display: block;
+vertical-align: middle;
+text-align: center;
+background-color: #e9f0fd;
+
+}
+.maintitle {
+padding-top: 100px;
+font-size: 38px;
+color: #515151;
+text-transform: uppercase;
+font-family: "Open Sans", sans-serif;
+}
+.maintitle::after{
+content: '';
+background-color: rgb(26,188,156);
+width: 160px;
+height: 8px;
+display: block; 
+margin: 30px auto;
+}
+.cart-section-wrp {
+width: 1140px;
+height: 424px;
+padding-left: 230px;
+padding-right: 230px;
+margin: 0 auto;
+font-size: 0px;
+display: block;
+background-color: #e9f0fd;
+}
+.container1 {
+width: 255px;
+height: 320px;
+display: inline-block;
+margin-right: 15px;
+margin-left: 15px;
+position: relative;
+
+}
+.imgage-wrp1 {
+display: inline-block;
+overflow: hidden;
+}
+.cart-image {
+width: 255px;
+height: 284px;
+
+}
+span {
+display: inline-block;
+height: 29px;
+font-size: 16px;
+color: #fff;
+
+font-family: "Open Sans", sans-serif;
+}
+.name {
+padding-left: 13px;
+padding-top: 11px;
+display: inline-block;
+width: 187px;
+background-color:#323232;
+text-transform: uppercase;
+
+}
+.price {
+padding-left: 13px;
+padding-top: 11px;
+display: inline-block;
+width: 42px;
+background-color: #8c8c8c;
+text-transform: uppercase;
+
+}
+.cart-modal {
+height: 264px;
+width: 233px;
+position: absolute;
+background-color: black;
+opacity: 0  ;
+transition-duration: 0,3s;
+z-index: 10;
+top: 10px;
+left: 11px;
+}
+.icon-wrp {
+position: absolute;
+height: 108px;
+width: 208px;
+top:90px;
+left:35px;
+opacity: 0;
+z-index: 30;
+transition-duration: 0,2s;
+}
+.icon-btn {
+box-sizing: border-box;
+background: transparent;
+margin: 0 7px 8px;
+height: 50px;
+width: 50px;
+border: 1px #fff solid;
+vertical-align: top;
+cursor: pointer;
+opacity: 1;
+}
+.icon-btn-add {
+width: 178px;
+}
+.imgcart {
+float: left;
+}
+.cart-text {
+padding-top:10px;
+}
+.clearfix {
+content: "";
+display: table;
+clear: both;
+}
+.image-wrp1:hover .name {
+background-color: rgb(26,188,156);
+}
+.image-wrp1:hover .price {
+background-color:#7fd9c7;
+}
+.image-wrp1:hover .cart-modal {
+opacity: 0.6;
+}
+.image-wrp1:hover .icon-wrp {
+opacity: 1;
+}
+.icon-btn-link:hover {
+background-color: rgb(26,188,156);
+}
+.icon-btn-like:hover {
+background-color: rgb(26,188,156);
+}   
+.icon-btn-clock:hover {
+background-color: rgb(26,188,156);
+}
+.icon-btn-add:hover {
+background-color: rgb(26,188,156);
+}
+.footer-wrp {
+width: 1600px;
+height: 90px;
+display: flex;
+align-items: center;
+justify-content: center ;
+background-color: #323232;
+
+}
+.rights {
+font-size: 12px;
+text-align: center;
+display: inline-block;
+}
+.colortext {
+color: rgb(26,188,156);
+}
